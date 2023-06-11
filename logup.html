@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./font/Roboto-Regular.ttf">
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <img src="./image/logo.svg" alt="">
+                    </div>
+                    <ul class="navbar__links">
+                        <li class="navbar__link"><a href="index.html" title="Home">Home</a></li>
+                        <li class="navbar__link"><a href="gianhang.html" title="Stall">Stall</a></li>
+                        <li class="navbar__link"><a href="about.html" title="About">About</a></li>
+                        <li class="navbar__link"><a href="login.html" title="Sign in">Sign in</a></li>
+                        <li class="navbar__link"><a href="logup.html" title="Sing up">Sign up</a></li>
+                        <button class="btn navbar__btn">Context</button>
+                    </ul>
+                    <div class="navbar__icons">
+                        <div class="navbar__icon"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="form__dk">
+            <form action="" class="form__main" id="SignUp_form">
+                <h1 class="form__title">Thành viên đăng ký</h1>
+                <span class="form__message">Chào mừng bạn đến với website chúng tôi ❤️</span>
+                <div class="form__cart">
+                    <label for="name">Tên đầy đủ</label>
+                    <br>
+                    <input type="text" placeholder="VD: Phạm Văn Hùng" id="name">
+                    <p id="error_message"></p>
+                </div>
+                <div class="form__cart">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" placeholder="VD: email@domail.com" id="email">
+                    <p id="error_message"></p>
+                </div>
+                <div class="form__cart cart_password">
+                    <label for="pass">Mật khẩu</label>
+                    <br>
+                    <input type="password" placeholder="Mật khẩu" id="pass">
+                    <i class="fa-sharp fa-regular fa-eye"></i>
+                    <p id="error_message"></p>
+                </div>
+                <div class="form__cart cart_password">
+                    <label for="repass">Nhập lại mật khẩu</label>
+                    <br>
+                    <input type="password" placeholder="Nhập lại mật khẩu" id="repass">
+                    <i class="fa-sharp fa-regular fa-eye"></i>
+                    <p id="error_message"></p>
+                </div>
+                <div class="form__checked">
+                    <input type="checkbox" checked>
+                    <span>Bằng việc đăng kí, bạn đã đồng ý về <a href="#">Điều khoản dịch vụ</a> & <a href="#">Chính
+                            sách bảo mật</a></span>
+                </div>
+                <div class="form__btn">
+                    <button type="submit" class="form-btn">
+                        Đăng ký
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

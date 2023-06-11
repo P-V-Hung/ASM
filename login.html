@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./font/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wraper">
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <img src="./image/logo.svg" alt="">
+                    </div>
+                    <ul class="navbar__links">
+                        <li class="navbar__link"><a href="index.html" title="Home">Home</a></li>
+                        <li class="navbar__link"><a href="gianhang.html" title="Stall">Stall</a></li>
+                        <li class="navbar__link"><a href="about.html" title="About">About</a></li>
+                        <li class="navbar__link"><a href="login.html" title="Sign in">Sign in</a></li>
+                        <li class="navbar__link"><a href="logup.html" title="Sing up">Sign up</a></li>
+                        <button class="btn navbar__btn">Context</button>
+                    </ul>
+                    <div class="navbar__icons">
+                        <div class="navbar__icon"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="form__dk" id="SignIn_form">
+            <form action="" class="form__main">
+                <h1 class="form__title">LOGIN NOW</h1>
+                <div class="form__cart">
+                    <label for="">Tài khoản</label>
+                    <br>
+                    <input type="text" placeholder="Email / Số điện thoại">
+                    <p id="error_email-dn"></p>
+                </div>
+                <div class="form__cart cart_password">
+                    <label for="">Mật khẩu</label>
+                    <br>
+                    <input type="password" placeholder="Mật khẩu">
+                    <i class="fa-sharp fa-regular fa-eye"></i>
+                    <p id="error_repass-dn"></p>
+                </div>
+                <div class="heap">
+                    <a href="#">Quên mật khẩu</a>
+                    <a href="#">Cần trợ giúp?</a>
+                </div>
+                <div class="icon__dn">
+                    <div class="facebook__dn">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="tw__dn">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="gg__dn">
+                        <a href="#">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="form_btn-dk">
+                    <button class="form_btn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
